@@ -172,10 +172,9 @@ def validate_passport(passport):
 
 def count_valid_passports(passports_input):
     passports = parse_input(passports_input)
-    print(len(passports))
+    #  print(len(passports))
     valid = 0
-    for i, passport in enumerate(passports):
-        #print(passport)
+    for passport in passports:
         if check_passport_fields(passport):
             valid += validate_passport(passport)
     return valid

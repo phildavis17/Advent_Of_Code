@@ -1,3 +1,5 @@
 __pycache__/
-scratch.py
 .vscode/
+.pytest_cache/
+
+scratch.py
